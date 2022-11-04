@@ -111,7 +111,6 @@ body {
 }
 
 #l1 {
-    position: relative;
     margin-left: 4vw;
     margin-bottom: 4vw;
     font-size: 4vw;
@@ -167,5 +166,11 @@ body {
         position: absolute;
         right: 50%;
         transform: translateX(50%);
+    }
+
+    
+    #l1 {
+        padding:
+            env(safe-area-inset-top, 20px) env(safe-area-inset-right, 20px) env(safe-area-inset-bottom, 20px) env(safe-area-inset-left, 20px);
     }
 }
