@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 856 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-    <g transform="matrix(1,0,0,1,-736.625,-383.632)">
-        <g transform="matrix(-0.000187235,0.247282,-0.247282,-0.000187235,864.456,184.295)">
-            <path d="M976.875,227.813L1121.02,516.094L832.734,516.094L976.875,227.813Z"/>
+<svg width="100%" height="100%" viewBox="0 0 245 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-732.625,-383.632)">
+        <g transform="matrix(-5.26661e-05,0.0695565,-0.0695565,-5.26661e-05,768.582,329.386)">
+            <path d="M976.875,227.813L1121.02,516.094L832.734,516.094L976.875,227.813Z" style="fill:white;"/>
         </g>
-        <g transform="matrix(3.19201,0,0,3.19201,-1830.72,-1355.91)">
-            <text x="832.734px" y="570.938px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:36.479px;">P<tspan x="858.214px 880.202px 911.933px 936.219px 950.406px 974.692px 1014.08px 1028.88px 1052.89px " y="570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px ">LOT TWIST</tspan></text>
+        <g transform="matrix(0.897861,0,0,0.897861,14.471,-105.673)">
+            <text x="832.734px" y="570.938px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:36.479px;fill:white;">P<tspan x="858.214px 880.202px 911.933px 936.219px 950.406px 974.692px 1014.08px 1028.88px 1052.89px " y="570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px ">LOT TWIST</tspan></text>
+        </g>
+        <g transform="matrix(0.791295,0,0,0.672601,103.376,46.1687)">
+            <text x="832.734px" y="570.938px" style="font-family:'YuGothicUI-Bold', 'Yu Gothic UI', sans-serif;font-weight:700;font-size:30.33px;fill:white;">C<tspan x="860.914px 893.181px 925.788px 951.643px 982.31px 1006.48px 1032.55px 1050.74px 1083.34px " y="570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px 570.938px ">ONSULTING</tspan></text>
         </g>
     </g>
 </svg>
