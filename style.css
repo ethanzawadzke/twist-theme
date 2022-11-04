@@ -162,10 +162,11 @@ body {
     }
 
     #logo {
-        display: block;
         position: absolute;
         right: 50%;
         transform: translateX(50%);
+        max-width: 120px;
+        max-height: auto;
     }
 
     body {
