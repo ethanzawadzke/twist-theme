@@ -161,6 +161,12 @@ body {
         display: none;
     }
 
+    #hamburger {
+        position: absolute;
+        left: 0px;
+        padding: 0px;
+    }
+
     #logo {
         position: absolute;
         right: 50%;
