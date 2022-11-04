@@ -121,9 +121,14 @@ body {
 #footer {
     background-color: white;
     display: block;
-    width: 100vw;
+    width: 100%;
     height: 200px;
-    margin: 80px;
+}
+
+#footer #logo {
+    max-width: 200px;
+    height: auto;
+    margin: 40px;
 }
 
 #insights {
@@ -138,10 +143,7 @@ body {
     margin-top: 20px;
 }
 
-#footer #logo {
-    max-width: 200px;
-    height: auto;
-}
+
 
 #linebreak {
     width: 90vw;
