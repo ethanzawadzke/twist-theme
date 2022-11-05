@@ -92,7 +92,7 @@ body {
 }
 
 #main {
-    background: url(img/counselorstock.jpeg) no-repeat center center;
+    background: url(img/counselorstockblur.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -279,6 +279,6 @@ body {
     }
 
     #main {
-        background-position: 95% 0;
+        background-position: 80% 0;
     }
 }
