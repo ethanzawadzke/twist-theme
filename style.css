@@ -277,4 +277,8 @@ body {
         background: rgb(20, 39, 61);
         font-size: small;
     }
+
+    #main {
+        background-position: 95% 0;
+    }
 }
