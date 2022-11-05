@@ -10,6 +10,10 @@
             font-family: GraphikMedium;
             src: url('fonts/GraphikMedium.otf');
         }
+        @font-face {
+            font-family: GraphikRegular;
+            src: url('fonts/GraphikRegular.otf');
+        }
     </style>
     <title>Plot Twist Consulting, LLC</title>
 </head>
@@ -42,6 +46,18 @@
         <div id="insights-text">
             <h2>Latest Insights</h2>
         </div>
+        <div id="insights-container">
+            <div class="insights-card" id="card1">
+                <div class="insights-card-text">
+                    <h3>How to make your business more sustainable</h3>
+                </div>
+            </div>
+            <div class="insights-card" id="card2">
+                <div class="insights-card-text">
+                    <h3>How to make your business more sustainable</h3>
+                </div>
+            </div>  
+        </div>
     </div>
 
     <div id="linebreak">
@@ -49,9 +65,26 @@
     </div>
 
     <footer id="footer">
-        <div id="logo">
-            <img src="img/logo1.png" alt="logo">
-        </div>
-    </div>
+        <footer id="footer-container">
+            <footer id="footer-left">
+                <div id="footer-logo">
+                    <img src="img/ptclogonewblack.svg" alt="logo">
+                </div>
+                <div id="footer-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <div id="footer-text">
+                <p>Plot Twist Consulting, LLC</p>
+                <p>1234 Main Street</p>
+                <p>Anytown, USA 12345</p>
+                <p>123-456-7890</p>
+            </div>
+        </footer>
 </body>
 </html>
