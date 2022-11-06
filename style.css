@@ -2,11 +2,16 @@ html {
     width: 100%;
     height: 100%;
     margin: 0;
+    color: white;
 }
 
 body {
     margin: 0;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: none;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #header-container {
@@ -24,6 +29,7 @@ body {
     align-items: center;
     height: 90px;
     width: 100%;
+    z-index: 1;
 }
 
 #menu {
@@ -41,7 +47,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-family: GraphikRegular, Helvetica, sans-serif;
+    font-weight: bold;
     list-style: none;
     text-decoration: none;
 }
@@ -90,30 +98,58 @@ body {
     background-color:rgb(107, 204, 163);
 }
 
-#main {
-    background: url(img/counselorstockblur.jpg) no-repeat center center;
+#main-one {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-    height: 100vh;
+    height: calc(100vh - 90px);
+
+    margin-top: 90px;
 
     display: flex;
     flex-direction: column;
+
+    overflow: hidden;
 
     justify-content: end;
     align-items: left;
     color: white;
     font-family: GraphikMedium, Helvetica, sans-serif;
     font-weight: lighter;
+    opacity: 100%;
 }
 
-#l1 {
-    margin-left: 4vw;
-    margin-bottom: 4vw;
-    font-size: 4vw;
+.slide {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: white;
+    font-family: GraphikMedium, Helvetica, sans-serif;
     font-weight: lighter;
+    transition: 6s;
+}
+
+#slide-one {
+    background-image: url(img/counselorstockblur.jpg);
+    transition: 7s;
+}
+
+#slide-one.hidden {
+    background-image: url(img/cranestock.jpeg);
+    transition: 7s;
+}
+
+.slide-text {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    transition: 0;
 }
 
 #footer {
@@ -175,6 +211,7 @@ body {
 }
 
 #insights-text {
+    color: black;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -201,11 +238,18 @@ body {
     font-family: GraphikRegular, Helvetica, sans-serif;
     color: white;
     font-size: large;
-    background-size: cover;
+    background-size: 110%;
+    transition: 1s;
+}
+
+
+.insights-card:hover {
+    background-size: 112%;
+    transition: 1s;
 }
 
 .insights-card-text {
-    padding: 2vw;
+    padding: 1vw;
     width: 80%;
     margin-bottom: 20px;
     background: rgb(20, 39, 61);
@@ -272,6 +316,7 @@ body {
 
     #insights {
         flex-direction: row;
+        width: 100vw;
     }
 
     #insights-card {
@@ -288,7 +333,11 @@ body {
         font-size: small;
     }
 
-    #main {
+    #slide-one {
         background-position: 80% 0;
+    }
+
+    .slide-text {
+        font-size: 1.6em;
     }
 }
