@@ -19,6 +19,50 @@
     <title>Plot Twist Consulting, LLC</title>
 </head>
 <body>
+    <div id="hamburger-slideout-menu">
+        <div id="hamburger-slideout-menu-container">
+            <div id="hamburger-slideout-menu-logo">
+                <img src="img/blueblacklogo.svg" alt="logo">
+            </div>
+            <div id="hamburger-slideout-menu-nav">
+                    <div class="button-container">
+                        <div id="line-industries" class="menu-line"></div>
+                        <button id="industries" class="side-menu-item">Industries</button>
+                    </div>
+
+                    <div class="button-container">
+                        <div id="line-service" class="menu-line"></div>
+                        <button id="service" class="side-menu-item">Services</button>
+                    </div>
+
+                    <div class="button-container">
+                        <div id="line-about" class="menu-line"></div>
+                        <button id="about" class="side-menu-item">About Us</button>
+                    </div>
+
+                    <div class="button-container">
+                        <div id="line-insights1" class="menu-line"></div>
+                        <button id="insights1" class="side-menu-item">Insights</button>
+                    </div>
+
+                    <div class="button-container">
+                        <div id="line-contact" class="menu-line"></div>
+                        <button id="contact" class="side-menu-item">Contact</button>
+                    </div>
+
+                    <div class="button-container">
+                        <div id="line-subscribe" class="menu-line"></div>
+                        <button id="subscribe" class="side-menu-item">Subscribe</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="slideout-menu-x">
+        <div id="x-line1"></div>
+        <div id="x-line2"></div>
+    </div>
+
+    <div id="main-container"></div>
     <header id="header-container">
         <header id="header">
             <!-- hamburger menu button-->
@@ -28,29 +72,75 @@
                 <div class="line"></div>
             </button>
             <div id="logo">
-                <img src="img/ptclogonew.svg" alt="logo">
+                <img src="img/INFINITYLOGO.svg" alt="logo">
             </div>
+            <!--<div id="spacer"></div>-->
             <div id="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                <button id="industries" class="nav-item">
+                    <div class="nav-item-text">Industries</div>
+                </button>
+                <button id="services" class="nav-item">
+                    <div class="nav-item-text">Services</div>
+                </button>
+                <button id="about-us" class="nav-item">
+                    <div class="nav-item-text">About Us</div>
+                </button>
+                <button id="Insights" class="nav-item">
+                    <div class="nav-item-text">Insights</div>
+                </button>
+                <button id="contact" class="nav-item">
+                    <div class="nav-item-text">Contact</div>
+                </button>
+                <div id="header-spacer" class="nav-item"></div>
+                <button id="Subscribe"  class="nav-item">
+                    <div class="nav-item-text">Subscribe</div>
+                </button>
             </div>
         </header>
     </header>
-
+    
     <div id="main-one">
         <div id='slide-one' class="slide">
             <div class="slide-text">
-                <h1>Behavioral health solutions <br>
+                <h1>
+                    Behavioral health <span id="solution">solutions</span> <br>
                     shouldn't be a mystery.
                 </h1>
             </div>
+            <button id="services-button-main">
+                See what we do
+            </button>           
         </div>
     </div>
-
+    
+    
+    <div id="services">
+        <div a href="#services-anchor" id="services-text">
+            <h2>What We Do</h2>
+        </div>
+        <div id="services-cards">
+            <div class="services-card" id="s-card1">
+                <div class="services-card-text">
+                    <h3>Behavioral Health Consulting</h3>
+                    <p>Our team of experts can help you navigate the complex world of behavioral health.</p>
+                </div>
+            </div>
+            <div class="services-card" id="s-card2">
+                <div class="services-card-text">
+                    <h3>Behavioral Health Consulting</h3>
+                    <p>Our team of experts can help you navigate the complex world of behavioral health.</p>
+                </div>
+            </div>
+            <div class="services-card" id="s-card3">
+                <div class="services-card-text">
+                    <h3>Behavioral Health Consulting</h3>
+                    <p>Our team of experts can help you navigate the complex world of behavioral health.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
     <div id="insights">
         <div id="insights-text">
             <h2>Latest Insights</h2>
@@ -65,19 +155,19 @@
                 <div class="insights-card-text">
                     <h3>How to make your business more sustainable</h3>
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
-
+    
     <div id="linebreak">
         <div id="line"></div>
     </div>
-
+    
     <footer id="footer">
         <footer id="footer-container">
             <footer id="footer-left">
                 <div id="footer-logo">
-                    <img src="img/ptclogonewblack.svg" alt="logo">
+                    <img src="img/blueblacklogo.svg" alt="logo">
                 </div>
                 <div id="footer-nav">
                     <ul>
@@ -95,5 +185,6 @@
                 <p>123-456-7890</p>
             </div>
         </footer>
+
 </body>
 </html>
