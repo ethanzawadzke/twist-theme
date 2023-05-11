@@ -1,0 +1,162 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    color: black;
+    /* background: url(https://i.imgur.com/HbhSaD5.png); */
+    padding-top: 4rem;
+    background-size: cover;
+    background-position: bottom;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+.footer-width {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.footer-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.footer-left {
+    margin-top: 2rem;
+}
+
+.footer-right {
+    justify-items: flex-end;
+    flex-direction: column;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding-right: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-address {
+    text-align: left;
+    line-height: 1.25;
+    font-size: 14px;
+}
+
+.footer-logo {
+    display: flex;
+    background-image: url('../img/logo/ptclogo.svg');
+    height: 65px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.footer-subscribe-header {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.footer-subscribe-body {
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.footer-form-email {
+    height: 36px;
+    width: 214px;
+    border: 1px solid black;
+}
+
+.footer-form-email-submit {
+    border: none;
+    background-color: white;
+    height: 40px;
+    width: 84px;
+    border: 1px solid black;
+}
+
+.footer-nav-links {
+    margin-bottom: 22px;
+    margin-top: 22px;
+}
+
+.footer-nav-links a {
+    color: white;
+    border: none;
+    color: inherit;
+    font-weight: inherit;
+    background-color: inherit;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.line-break {
+    background-color: black;
+    height: 1px;
+    margin: auto;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.footer-bottom-container {
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.footer-copyright {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 14px;
+    border-top: 1px solid;
+}
+
+.footer-form-container {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .footer-content-container {
+        flex-direction: row;
+    }
+
+    .footer-address {
+        text-align: right;
+        margin-top: 2rem;
+    }
+
+    .footer-nav-links {
+        margin-top: 12px;
+    }
+
+    .footer-form-email {
+        height: 36px;
+        width: 264px;
+    }
+
+    .footer-form-email-submit {
+        border: none;
+        background-color: white;
+        height: 40px;
+        width: 84px;
+        border: 1px solid black;
+    }
+
+    .footer-width {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 1500px;
+        margin: auto;
+    }
+
+    #subscribe-form-footer {
+        margin-left: 0;
+    }
+}
